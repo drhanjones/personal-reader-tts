@@ -36,11 +36,11 @@ I’m a AI Engineer, and I wanted to learn:
 - [x] On-demand PDF→HTML conversion  
 - [x] Paginated HTML reader  
 - [x] Stub audio player with `<audio controls>`  
-- [x] Custom `LandscapeAudioPlayer.vue` with full UI  
-- []  Back end TTS engine integration
-- []  Change structure of app with a longer potrait mode audio player on left side with a "Reader" in the middle and file management on the right side
-- []  Improve HTML generation where instead of one index.html file, generate one file per page
- 
+- [x] Custom `LandscapeAudioPlayer.vue` with full UI
+- [ ]  Back end TTS engine integration
+- [ ]  Change structure of app with a longer potrait mode audio player on left side with a "Reader" in the middle and file management on the right side
+- [ ]  Improve HTML generation where instead of one index.html file, generate one file per page
+
 
 ---
 
