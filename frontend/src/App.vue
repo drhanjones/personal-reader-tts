@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -28,3 +28,37 @@ import HelloWorld from './components/HelloWorld.vue'
   filter: drop-shadow(0 0 2em #42b883aa);
 }
 </style>
+
+ -->
+
+ <!-- frontend/src/App.vue -->
+
+<template>
+  <div id="app">
+    <Navbar />
+    <router-view />
+  </div>
+</template>
+
+<style>
+  #app {
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    max-width: none;
+  }
+</style>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+// import UploadPdf from './components/UploadPdf.vue';
+import Navbar from './components/Navbar.vue';
+
+export default defineComponent({
+  name: 'App',
+  components: { Navbar },
+});
+</script>
